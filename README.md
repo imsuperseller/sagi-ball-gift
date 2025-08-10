@@ -1,4 +1,21 @@
-# SagiBall - Football Training Academy Management System
+# 🎁 SagiBall - Football Training Academy Management System
+
+> **🎯 Special Gift for Sagi** 🎯
+> 
+> This is a complete, production-ready football training academy management system built specifically for you! 
+> 
+> **What you get:**
+> - ✅ Admin dashboard in Hebrew for managing teams, players, coaches
+> - ✅ Mobile app for coaches to log attendance and parents to get notifications  
+> - ✅ Complete backend with database, authentication, and real-time features
+> - ✅ Full Hebrew support with RTL layout
+> - ✅ Ready to deploy to Vercel and GitHub
+> 
+> **Quick Start:** Run `./setup-for-sagi.sh` and follow the instructions!
+> 
+> **Made with ❤️ for Sagi** - Enjoy your new football academy!
+
+---
 
 A comprehensive monorepo for managing a football training academy with separate apps for coaches/parents (mobile) and administrators (web).
 
