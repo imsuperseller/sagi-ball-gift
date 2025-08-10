@@ -1,0 +1,33 @@
+{
+  "name": "mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "build": "expo export"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "@sagi-ball/api": "workspace:*",
+    "@sagi-ball/types": "workspace:*",
+    "@sagi-ball/ui": "workspace:*",
+    "@supabase/supabase-js": "^2.45.4",
+    "@tanstack/react-query": "^5.51.1",
+    "expo": "~51.0.15",
+    "expo-constants": "~16.0.2",
+    "expo-linking": "~6.3.1",
+    "expo-notifications": "~0.28.14",
+    "expo-secure-store": "~13.0.2",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

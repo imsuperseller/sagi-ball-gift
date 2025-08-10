@@ -1,0 +1,22 @@
+{
+  "name": "sagi-ball",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.7.0",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "dev:mobile": "turbo run dev --filter=mobile",
+    "dev:admin": "turbo run dev --filter=admin",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "db:push": "supabase db push",
+    "seed": "supabase db reset --linked --force && supabase db seed --file ./supabase/seed/seed.sql"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.6",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.30"
+  }
+}
